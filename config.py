@@ -1,4 +1,5 @@
-import re
+
+    import re
 from os import getenv
 
 from dotenv import load_dotenv
@@ -22,9 +23,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1500))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6256542475))
+OWNER_ID = int(getenv("OWNER_ID", 7442163626))
 
-OWNER_USERNAME = getenv("OWNER_USERNAME","Koushals84")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Satya_6_6_6")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -34,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/MTSTUDIO84/MISHXV2",
+    "https://github.com/indorinfosatyagmailcom/MISHXV2",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KSD_BOT_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TEAM_RIYA_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/phonk_updates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/shadow_study_club")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -115,4 +116,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
