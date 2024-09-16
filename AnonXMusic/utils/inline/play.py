@@ -69,11 +69,11 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="✪ʟɪꜰᴇ✪",
-                url=f"https://t.me/Team_riya_support",
+                url=f"https://t.me/QUIZ_EXPERSS",
             ),
             InlineKeyboardButton(
                 text="✪ᴊᴀɴɴ✪",
-                url=f"https://t.me/Ksd_bot_network",
+                url=f"https://t.me/phonk_updates",
             ),
         ],
         [
@@ -102,14 +102,14 @@ def stream_markup(_, chat_id):
 
                 text="✪ʟɪꜰᴇ✪",
 
-                url=f"https://t.me/Team_riya_support",
+                url=f"https://t.me/QUIZ_EXPERSS",
 
             ),
             InlineKeyboardButton(
 
                 text="✪ᴊᴀɴɴ✪",
 
-                url=f"https://t.me/Ksd_bot_network",
+                url=f"https://t.me/phonk_updates",
 
             ),
         ],
